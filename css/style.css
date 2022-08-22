@@ -59,6 +59,7 @@ article figure {
   margin: 0 0 1.25em 1.25em;
 }
 article figcaption {
+  font-size: inherit;
 }
 .pagination {
   margin-top: 2em;
