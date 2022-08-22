@@ -1,7 +1,12 @@
 # THANK YOU FOR DOING THIS!
 I've laid out everything you need to know to finish this project. Aside from *readme.md* (this file), there's an image of what the finished version of the page should look like (without color) named mockup.png——you might want to look at that first so you know what you're shooting for!
 
-This file contains a list of all the tasks that remain, in basically the same order as they appear in the source code, so all you need to do is start at the top and work your way down. Practice using Google to search for the things you don't know how to do :)
+This file contains a list of all the tasks that remain, in basically the same order as they appear in the source code, so all you need to do is start at the top and work your way down. 
+
+## TIPS
++ Practice using Google to search for the things you don't know how to do :)
+  
++ This file is written in a code called 'Markdown' which allows you to format text. You can surround any text with double tilda characters (~) to create a strikethrough effect. Like this: ~~strikethrough text~~. This will allow you to strike out the items below after you're done completing them, so you can track what tasks youv'e completed.
 
 ## In /index.html
 + The page needs a better title. Think of one and change it to that.
