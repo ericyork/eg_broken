@@ -1,11 +1,14 @@
-/*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
+/*--
+Remember the cascade: 
+ 1. later styles override earlier ones 
+ 2. more specific styles override more general ones
+--*/
 html {
 	font-size: 62.5%;
 }
 img {
 	width: 100%;
 	height: auto;
-	user-select: none;
 }
 body {
   color: #444;
