@@ -1,7 +1,15 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
+html {
+	font-size: 62.5%;
+}
+img {
+	width: 100%;
+	height: auto;
+	user-select: none;
+}
 body {
   color: #444;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: 'Arial', sans-serif;
 }
 p {
