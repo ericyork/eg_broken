@@ -15,6 +15,8 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 + Use the display property to set the display of the nav element to "flex" to lay out the main menu in a horizontal row, and use the justify-content property to distribute the links with space-between.
 
++ There's a weird bit of extra space above the nav, preventing the nav from being flush with the top of the browser window. Find out where that space is coming from and get rid of it. (Hint: use the browser's inspector and the layout panel to view box model of each element, starting at the top and moving down).
+
 + Use left and right auto margin to center both the header and article sections horizontally on the page.
 
 + Horizontally center the header h1 elements and use the font and text-transform properties to visually distinguish class .small from the other h1. Try to set it to 900-weight, Lato font (with a sans-serif fallback), in all caps. It should probably also be smaller in size.
