@@ -1,17 +1,18 @@
 # THANK YOU FOR DOING THIS!
-I've laid out everything you need to know to finish this project. Aside from *readme.md* (this file), there's an image of what the finished version of the page should look like (without color) named mockup.png——you might want to look at that first so you know what you're shooting for!
+I've laid out everything you need to know to finish this project. Aside from *readme.md* (this file), there's an image of what the finished version of the page should look like (without color) named mockup.png——you might want to look at that first so you know what you're shooting for (and to start thinking about your color sheme).
 
-This file contains a list of all the tasks that remain, in basically the same order as they appear in the source code, so all you need to do is start at the top and work your way down. 
+This file contains a list of all the tasks that remain, in basically the same order as they appear in the source code, so all you need to do is start at the top and work your way down. Feel free to use any means at your disposal to solve the problems. This isn't a test, it's a learning experience.
 
-## TIPS
-+ Practice using Google to search for the things you don't know how to do :)
-  
-+ This file is written in a code called 'Markdown' which allows you to format text. You can surround any text with double tilda characters (~) to create a strikethrough effect. Like this: ~~strikethrough text~~. This will allow you to strike out the items below after you're done completing them, so you can track what tasks youv'e completed.
+## Troubleshooting
+Your page will likely get messed up. Here are some strategies that can help. 
++ **Save often**. Saving and committing changes often is the best way to get out of trouble when this happens: just revert to a known working version.
++ **Use the Inspector**. Your browsers dev tools will have an [Inspector](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/open_the_inspector/index.html). 
++ **Perform Debugging**
 
-## In /index.html
-+ The page needs a better title. Think of one and change it to that.
+## In /index.html 
++ The page needs a better page title. Think of one and change the **page title** (but not the file name!) from eg_broken to that.
 
-+ The stylesheet needs to be hooked up to the page. In the head section, add a link to our external stylesheet: it's named style.css and it's located inside the /css folder. You will need to use the <link> tag for this and you will need to make certain the path is correct. You can use the browser's inspector to check.
++ Another stylesheet needs to be linked to the index.html page. In the head section (the area between the opening <head> and closing </head> tags), add a link to the style.css stylesheet. You will use the <link> tag and set the href attribute to point to the style.css file that's located inside the /css folder. You can build your link just like the one that's already in the <head> section, pointing to the CSS reset styles.
 
 + One image still needs to be added. Inside the article element, there's a figure without an image. Inside the figure element, add an image element that links to the dodo.jpg file inside the /img folder. Don't forget to use the alt attribute and make sure the file path is correct. Again, you can use the browser's inspector to check.
 
